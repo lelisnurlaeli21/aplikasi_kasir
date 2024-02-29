@@ -167,7 +167,7 @@ private void tampilData(){
 
         jPanel1.setBackground(new java.awt.Color(204, 153, 255));
 
-        jLabel1.setFont(new java.awt.Font("Ebrima", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Castellar", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("MENU");
@@ -188,7 +188,7 @@ private void tampilData(){
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 950, 60);
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
         jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -227,6 +227,7 @@ private void tampilData(){
             }
         });
 
+        table_barang1.setBackground(new java.awt.Color(204, 153, 255));
         table_barang1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         table_barang1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -280,11 +281,11 @@ private void tampilData(){
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton5))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel2);
-        jPanel2.setBounds(0, 60, 950, 490);
+        jPanel2.setBounds(0, 60, 950, 510);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
